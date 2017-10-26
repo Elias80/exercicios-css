@@ -1,0 +1,8 @@
+p	{
+	border: 10px solid red;
+	display: block;
+}
+span {
+	border: 5px solid red;
+	display: block;
+}
