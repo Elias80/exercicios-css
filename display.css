@@ -1,8 +1,11 @@
 p	{
 	border: 5px solid red;
+	display: inline-block;
 }
 span {
 	border: 5px solid red;
+	display: inline-block;
+	visibility: hidden;
 }
 a {
 	background-color: yellow;
