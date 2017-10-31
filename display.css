@@ -1,6 +1,13 @@
 p {
 	border: 3px solid red;
-	max-width: 500px;
+
+	/* técnica de centralização de bloco */
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	/* */
+
+	max-width: 400px;
 }
 
 /*table {
