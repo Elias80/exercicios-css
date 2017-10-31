@@ -1,11 +1,12 @@
-p{
+p {
 	border: 3px solid red;
 	max-width: 500px;
 }
-table {
+
+/*table {
 	border: 1px solid red;
 	min-width: 100%;
 }
 th {
 	width: 25%;
-}
+}*/
