@@ -1,15 +1,3 @@
-p	{
-	border: 5px solid red;
-	display: inline-block;
-}
-span {
-	border: 5px solid red;
-	display: inline-block;
-	visibility: hidden;
-}
-a {
-	background-color: yellow;
-	display: inline-block;
-	margin: 50px;
-	height: 50px;
+li {
+	display: inline;
 }
