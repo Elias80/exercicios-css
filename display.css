@@ -1,13 +1,15 @@
-.sem-box-sizing {
+* {
+	box-sizing: border-box;
+}
+.sem-box-sizing,
+.com-box-sizing {
 	width: 300px;
 	margin: 20px auto;
-	border: 10px solid red;
 	padding: 50px;
 }
+.sem-box-sizing {
+	border: 10px solid red;
+}
 .com-box-sizing {
-	box-sizing: border-box;
-	width: 300px;
-	margin: 20px auto;
 	border: 10px solid blue;
-	padding: 50px;
 }
