@@ -1,15 +1,20 @@
 * {
 	box-sizing: border-box;
 }
-.sem-box-sizing,
-.com-box-sizing {
+.caixa-pai,
+.caixa-filho1 {
 	width: 300px;
 	margin: 20px auto;
 	padding: 50px;
 }
-.sem-box-sizing {
+.caixa-pai {
 	border: 10px solid red;
+	position: relative;
 }
-.com-box-sizing {
+.caixa-filho1 {
+	background: white;
 	border: 10px solid blue;
+	position: absolute;
+	top: 75px;
+	left: 75px;
 }
